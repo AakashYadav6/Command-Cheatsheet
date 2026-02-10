@@ -74,6 +74,9 @@ A massive, well-organized markdown sheet to fast-track Linux, Docker, ROS2 Humbl
 | `ros2 pkg list`                     | List installed packages |
 | `ros2 launch <pkg> <launch.py>`     | Launch nodes            |
 | `ros2 lifecycle list`               | Lifecycle node status   |
+| `sudo apt update && rosdep update`  |  Rosdep update & install dep|
+| `rosdep install --from-paths` / `src --ignore-src -y`
+
 
 ---
 
